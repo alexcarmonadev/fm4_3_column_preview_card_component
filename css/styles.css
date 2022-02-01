@@ -19,6 +19,7 @@
 }
 
 body {
+  position: relative;
   margin: 0;
   margin-left: auto;
   margin-right: auto;
@@ -26,6 +27,13 @@ body {
   font-family: var(--font-lexend);
   font-size: 15px;
   padding: 5.5rem 1.5rem;
+}
+
+h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 944px) {
@@ -132,6 +140,7 @@ body {
   font-size: 0.7em;
   text-align: center;
 }
+
 .attribution a {
   color: var(--bright-orange);
 }
